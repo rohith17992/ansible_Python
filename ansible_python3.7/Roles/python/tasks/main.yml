@@ -20,3 +20,6 @@
   with_items:
     - { src: '/usr/local/python/bin/python3.7', dest: '/usr/local/bin/python' }
     - { src: '/usr/local/python/bin/pip3.7'   , dest: '/usr/local/bin/pip'    }
+    
+- name: installed version
+  shell: python3.7 -V
