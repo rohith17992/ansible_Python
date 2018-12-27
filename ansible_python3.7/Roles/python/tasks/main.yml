@@ -11,7 +11,7 @@
   register: reg
 
 - name: make
-  shell: cd "{{ python_dir }}" && ./configure --prefix=/usr/local/python && make && make install
+  shell: cd "{{ python_dir }}" && ./configure --prefix=/usr/local/python && make && make altinstall
 
 - file:
     src: '{{ item.src }}'
