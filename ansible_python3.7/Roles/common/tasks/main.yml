@@ -2,5 +2,5 @@
 - name: configure / Update yum packages
   yum:
     name: '*'
-    state: latest
+    state: present
     update_cache: yes
